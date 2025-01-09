@@ -50,7 +50,7 @@ public class Main {
                         System.out.println(book.getId() + " -> " + book.getTitle());
                     }
 
-                    System.out.println("Digite o número do livro que deseja emprestar:");
+                    System.out.println("Digite o número do livro que deseja pegar emprestado:");
                     int bookId = scanner.nextInt();
                     scanner.nextLine();
 

@@ -6,6 +6,7 @@ public class Library {
     private List<Author> authors = new ArrayList<>();
     private List<Loan> loans = new ArrayList<>();
 
+    // Book methods
     public void addBook(Book book) {
         books.add(book);
     }
@@ -46,6 +47,8 @@ public class Library {
         books.removeIf(book -> book.getId() == id);
     }
 
+
+    // Author methods
     public void addAuthor(Author author) {
         authors.add(author);
     }
